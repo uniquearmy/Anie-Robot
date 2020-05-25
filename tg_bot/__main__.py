@@ -27,34 +27,23 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
+*Hey* *There!* *I'm* *Lone_Ranger*  .
 
-Hello    {}, My Name Is {} !
+*I'm* *A* *Group* *Management* *Bot*, *Made* *With* *Love* *And* *Managed* *By* [This Awesome Person](https://t.me/Unknown_Hacke_X). 
 
-I am a group management bot With Some Special Features.
-To add me to your group click ["HERE"](t.me/Aniebot?startgroup=botstart)
-You can find my list of available commands with /help.
- 
-See [Basic Configuration Checklist](t.me/Anienews/3) on how to secure your group.
-The support group chat is at @AnieSupport. Support Channel @AnieNews
+*If* *You* *Need* *Any* *Support* , *Please* *Join* [ Lone Ranger Support Group](https://t.me/Sabrina_RoBotChat) . 
 
-
+*Hit* /help *To* *Know* *More* *About* *My* *Full* *Potential* *Use!*
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
-
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
-
-
-{}
-And the following:
+Hello! My Name Is *{}* .
+*Main* *Available* *Commands* :
+ 🔱  /start: Start The Bot...
+ 🔱  /help: Help....
+ 🔱  /settings:
+ 🔱  in PM: To Find Out What SETTINGS You Have Set.... In A Group :
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
@@ -151,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
 
     else:
-        update.effective_message.reply_text("Yo, whadup?🤧")
+        update.effective_message.reply_text("Hey! PM Me If You Have Any Questions On How To Use Me.")
 
 
 def send_start(bot, update):

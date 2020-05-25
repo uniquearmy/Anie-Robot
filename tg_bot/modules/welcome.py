@@ -100,7 +100,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
-                update.effective_message.reply_text("Whoa! A member of the Heroes Association just joined!")
+                update.effective_message.reply_text("Whoa! Awesome.. Pro just joined!")
 
             # Welcome Sudos
             elif new_mem.id in SUDO_USERS:
@@ -120,7 +120,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome yourself
             elif new_mem.id == bot.id:
-                update.effective_message.reply_text("hello 😎")
+                update.effective_message.reply_text("Ooooo... My Master Just Joined The Group.. Kek.")
 
             else:
                 # If welcome message is media, send with appropriate function

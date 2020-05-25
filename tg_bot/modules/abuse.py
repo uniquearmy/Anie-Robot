@@ -5,22 +5,22 @@ from tg_bot import dispatcher
 from tg_bot.modules.disable import DisableAbleCommandHandler
 
 SFW_STRINGS = (
-    "പോടാ പട്ടി",
-    "ഡാ പന്നി ",
-    "പുന്നാര മോനെ",
-    "പോടാ മാക്രി",
-    "പോടാ നാറി",
-    "വാടാ ... പട്ടീ",
-    "പോയി ചാവടാ",
-    "നീ പോടാ കാട്ടുകോഴി",
-    "പോയി ചത്തൂടെ നിനക്ക്",
-    "കോപ്പേ വല്യ ബഹളം വേണ്ട",
-    "വല്യ മലരനാണല്ലോടാ നീ",
-    "മണ്ണുണ്ണി",
-    "ഡാ പന്നക്കിളവ",
-    " നിന്റെ കുഞ്ഞമ്മേടെ നായർ",
-    "നിന്റെ അപ്പൂപ്പനോട്‌ പോയി പറ",
-    "പോ മലരേ"
+    "Stfu and Gtfo U nub",
+    "Ur dad gey bc",
+    "Stfu bc",
+    "Stfu go fuck yourself",
+    "Bsdk",
+    "Gay is here",
+    "Ur mum gey",
+    "Relax your Rear,ders nothing to fear,The Rape train is finally here",
+    "Ur granny tranny",
+    "Suck my dick",
+    "Hey gey how are you?",
+    "Fuck you hard",
+    "Bitch",
+    "U have breast",
+    "You suck your dick?",
+    "Wait I'm Fucking You", 
   )
 
 @run_async
